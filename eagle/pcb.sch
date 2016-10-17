@@ -9599,7 +9599,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="USB_PI" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="ICSP" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -9714,7 +9713,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <instance part="SUPPLY7" gate="G$1" x="220.98" y="152.4"/>
 <instance part="USB_PI" gate="G$1" x="48.26" y="91.44"/>
 <instance part="GND17" gate="1" x="55.88" y="83.82"/>
-<instance part="SUPPLY8" gate="G$1" x="55.88" y="99.06"/>
 <instance part="ICSP" gate="G$1" x="200.66" y="162.56"/>
 <instance part="GND18" gate="1" x="210.82" y="154.94"/>
 <instance part="SUPPLY9" gate="G$1" x="210.82" y="167.64"/>
@@ -9829,12 +9827,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="223.52" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="147.32" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="USB_PI" gate="G$1" pin="4"/>
-<wire x1="53.34" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="96.52" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="2"/>
@@ -10740,11 +10732,17 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <label x="205.74" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$50" class="0">
+<net name="VCC_POWER" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="POWER" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="167.64" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
+<label x="114.3" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USB_PI" gate="G$1" pin="4"/>
+<wire x1="53.34" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
+<label x="55.88" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$34" class="0">
