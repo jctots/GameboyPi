@@ -9537,8 +9537,8 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22p"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22"/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
 <part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10u"/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
@@ -9556,17 +9556,17 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="1.8V" device=""/>
 <part name="AUDIO_PI" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
-<part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
-<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
-<part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="270"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="270"/>
+<part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0805" value="33n"/>
+<part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0805" value="33n"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="150"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="150"/>
+<part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10u"/>
+<part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10u"/>
 <part name="POT" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
-<part name="C21" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
-<part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
+<part name="C21" library="SparkFun-Passives" deviceset="CAP" device="0805" value="220n"/>
+<part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0805" value="220n"/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9578,19 +9578,19 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
+<part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1u"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
 <part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
 <part name="L4" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
 <part name="L5" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100"/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100"/>
 <part name="SPEAKER" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2.7k"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="HEADPHONES" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
@@ -9623,7 +9623,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1u"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M08" device=""/>
+<part name="USB_HUB" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="C28" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10u"/>
 </parts>
 <sheets>
@@ -9737,7 +9737,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <instance part="C27" gate="G$1" x="96.52" y="160.02"/>
 <instance part="SUPPLY11" gate="G$1" x="83.82" y="167.64" rot="R90"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="J1" gate="G$1" x="99.06" y="81.28" rot="R90"/>
+<instance part="USB_HUB" gate="G$1" x="99.06" y="81.28" rot="R90"/>
 <instance part="C28" gate="G$1" x="88.9" y="160.02"/>
 </instances>
 <busses>
@@ -9849,7 +9849,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
-<pinref part="J1" gate="G$1" pin="8"/>
+<pinref part="USB_HUB" gate="G$1" pin="8"/>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10093,7 +10093,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <segment>
 <wire x1="114.3" y1="88.9" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="USB_HUB" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="88.9" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -10748,7 +10748,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <net name="N$34" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DM4"/>
-<pinref part="J1" gate="G$1" pin="7"/>
+<pinref part="USB_HUB" gate="G$1" pin="7"/>
 <wire x1="88.9" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="91.44" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -10756,7 +10756,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <net name="N$35" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DP4"/>
-<pinref part="J1" gate="G$1" pin="6"/>
+<pinref part="USB_HUB" gate="G$1" pin="6"/>
 <wire x1="88.9" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="93.98" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -10764,7 +10764,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <net name="N$36" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DM3"/>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="USB_HUB" gate="G$1" pin="5"/>
 <wire x1="88.9" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="99.06" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -10772,7 +10772,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <net name="N$39" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DP3"/>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="USB_HUB" gate="G$1" pin="4"/>
 <wire x1="88.9" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="101.6" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -10782,13 +10782,13 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="U$2" gate="G$1" pin="DM2"/>
 <wire x1="88.9" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="106.68" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="USB_HUB" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DP2"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="USB_HUB" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="109.22" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="109.22" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 </segment>
