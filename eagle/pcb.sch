@@ -10595,9 +10595,9 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <label x="238.76" y="116.84" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PC6"/>
-<wire x1="203.2" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
-<label x="205.74" y="114.3" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PB6(ADC13)"/>
+<wire x1="203.2" y1="101.6" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
+<label x="205.74" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RIGHT" class="0">
@@ -10715,9 +10715,9 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <label x="238.76" y="55.88" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB6(ADC13)"/>
-<wire x1="203.2" y1="101.6" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
-<label x="205.74" y="101.6" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PC6"/>
+<wire x1="203.2" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<label x="205.74" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="L2" class="0">
